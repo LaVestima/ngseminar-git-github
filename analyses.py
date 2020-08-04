@@ -13,4 +13,4 @@ results = results.join(pd.DataFrame(fc, columns = ['fc']))
 
 results['logfc'] = np.log2(results['fc'])
 
-results.to_csv('TSC_treatment_effect_all_groups_t-test.csv', sep='\t')
+results.to_excel('TSC_treatment_effect_all_groups_t-test.xlsx')
